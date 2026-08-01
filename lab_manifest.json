@@ -1,0 +1,214 @@
+{
+  "compreview-volume": {
+    "course_sku": "do0020l",
+    "version": "4.18"
+  },
+  "compreview-storage": {
+    "course_sku": "do0020l",
+    "version": "4.18"
+  },
+  "compreview-oadp": {
+    "course_sku": "do0020l",
+    "version": "4.18"
+  },
+  "compreview-network": {
+    "course_sku": "do0020l",
+    "version": "4.18"
+  },
+  "compreview-interface": {
+    "course_sku": "do0020l",
+    "version": "4.18"
+  },
+  "compreview-migrate": {
+    "course_sku": "do0020l",
+    "version": "4.18"
+  },
+  "accessing-creating": {
+    "course_sku": "do0022l",
+    "version": "4.18"
+  },
+  "replicating-bootsources": {
+    "course_sku": "do0028l",
+    "version": "4.18"
+  },
+  "ha-node": {
+    "course_sku": "do0030l",
+    "version": "4.18"
+  },
+  "network-storage": {
+    "course_sku": "do0024l",
+    "version": "4.18"
+  },
+  "storage-review": {
+    "course_sku": "do0024l",
+    "version": "4.18"
+  },
+  "ha-loadbalance": {
+    "course_sku": "do0030l",
+    "version": "4.18"
+  },
+  "network-lb": {
+    "course_sku": "do0023l",
+    "version": "4.18"
+  },
+  "storage-intro": {
+    "course_sku": "do0024l",
+    "version": "4.18"
+  },
+  "oadp-review": {
+    "course_sku": "do0027l",
+    "version": "4.18"
+  },
+  "oadp-restore": {
+    "course_sku": "do0027l",
+    "version": "4.18"
+  },
+  "network-review": {
+    "course_sku": "do0023l",
+    "version": "4.18"
+  },
+  "storage-export": {
+    "course_sku": "do0024l",
+    "version": "4.18"
+  },
+  "auth-rbac": {
+    "course_sku": "do0025l",
+    "version": "4.18"
+  },
+  "storage-clone": {
+    "course_sku": "do0024l",
+    "version": "4.18"
+  },
+  "ha-review": {
+    "course_sku": "do0030l",
+    "version": "4.18"
+  },
+  "storage-external": {
+    "course_sku": "do0024l",
+    "version": "4.18"
+  },
+  "oadp-operator": {
+    "course_sku": "do0027l",
+    "version": "4.18"
+  },
+  "network-createudn": {
+    "course_sku": "do0023l",
+    "version": "4.18"
+  },
+  "storage-multiple": {
+    "course_sku": "do0024l",
+    "version": "4.18"
+  },
+  "network-multihomed": {
+    "course_sku": "do0023l",
+    "version": "4.18"
+  },
+  "network-udn": {
+    "course_sku": "do0023l",
+    "version": "4.18"
+  },
+  "accessing-monitor": {
+    "course_sku": "do0022l",
+    "version": "4.18"
+  },
+  "oadp-schedule": {
+    "course_sku": "do0027l",
+    "version": "4.18"
+  },
+  "replicating-review": {
+    "course_sku": "do0028l",
+    "version": "4.18"
+  },
+  "accessing-review": {
+    "course_sku": "do0022l",
+    "version": "4.18"
+  },
+  "network-external": {
+    "course_sku": "do0023l",
+    "version": "4.18"
+  },
+  "intro-navigate": {
+    "course_sku": "do0021l",
+    "version": "4.18"
+  },
+  "accessing-clicreate": {
+    "course_sku": "do0022l",
+    "version": "4.18"
+  },
+  "migrate-mtv": {
+    "course_sku": "do0026l",
+    "version": "4.18"
+  },
+  "replicating-create": {
+    "course_sku": "do0028l",
+    "version": "4.18"
+  },
+  "scheduling-migrate": {
+    "course_sku": "do0029l",
+    "version": "4.18"
+  },
+  "scheduling-selector": {
+    "course_sku": "do0029l",
+    "version": "4.18"
+  },
+  "virtualization-deploy": {
+    "course_sku": "do0021l",
+    "version": "4.18"
+  },
+  "ha-probe": {
+    "course_sku": "do0030l",
+    "version": "4.18"
+  },
+  "storage-snapshot": {
+    "course_sku": "do0024l",
+    "version": "4.18"
+  },
+  "intro-cli": {
+    "course_sku": "do0021l",
+    "version": "4.18"
+  },
+  "network-policy": {
+    "course_sku": "do0023l",
+    "version": "4.18"
+  },
+  "network-services": {
+    "course_sku": "do0023l",
+    "version": "4.18"
+  },
+  "scheduling-review": {
+    "course_sku": "do0029l",
+    "version": "4.18"
+  },
+  "oadp-backup": {
+    "course_sku": "do0027l",
+    "version": "4.18"
+  },
+  "network-nmstate": {
+    "course_sku": "do0023l",
+    "version": "4.18"
+  },
+  "network-advanced": {
+    "course_sku": "do0023l",
+    "version": "4.18"
+  },
+  "accessing-gui": {
+    "course_sku": "do0022l",
+    "version": "4.18"
+  },
+  "ha-maintenance": {
+    "course_sku": "do0030l",
+    "version": "4.18"
+  },
+  "aap-hub": {
+    "course_sku": "do0008l",
+    "version": "4.18"
+  },
+  "aap-controller": {
+    "course_sku": "do0008l",
+    "version": "4.18"
+  },
+  "scheduling-descheduler": {
+    "course_sku": "do0029l",
+    "version": "4.18"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "lab_states": {
+    "accessing-clicreate": "Finished",
+    "storage-export": "Finished",
+    "oadp-operator": "Finished",
+    "accessing-gui": "Finished",
+    "network-multihomed": "Finished",
+    "network-lb": "Finished",
+    "oadp-backup": "Finished",
+    "storage-review": "Finished",
+    "storage-snapshot": "Finished",
+    "auth-rbac": "Finished",
+    "virtualization-deploy": "Finished",
+    "network-review": "Finished",
+    "network-services": "Finished",
+    "accessing-creating": "Finished",
+    "network-external": "Finished",
+    "storage-multiple": "Finished",
+    "storage-intro": "Finished",
+    "network-udn": "Finished",
+    "storage-clone": "Finished"
+  }
+}

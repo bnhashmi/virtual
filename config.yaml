@@ -1,0 +1,33 @@
+rhtlab:
+  appsrepo:
+    branch: main
+    enabled: false
+    origin: https://github.com/RedHatTraining/DO0027L-apps
+    origin_base: https://github.com/RedHatTraining/
+    path: /home/student/DO0027L/DO0027L-apps
+    subdir: ''
+  ci_mode: false
+  course:
+    sku: do0027l
+  dev_mode: false
+  disable_spinner: false
+  environment: null
+  image_registry:
+    developer:
+      password: developer
+      user: developer
+    url: https://registry.ocp4.example.com:8443
+  lab_scripts: oadp-backup,oadp-operator,oadp-restore,oadp-review,oadp-schedule,sample-ge
+  logging:
+    capture_output: false
+    level: error
+    path: /tmp/log/labs/
+    sentry:
+      enabled: true
+      url: https://b06fd7fa3d730bce1346d1f4c2300397@o490301.ingest.us.sentry.io/4508003185655808
+  multiply_waits: 1.0
+  overwrite: false
+  project_id: null
+  suppress_ansible_output: false
+  verbose: false
+  version_lock: '>=4.18,<4.19'
