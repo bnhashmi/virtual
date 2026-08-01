@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-lancre
+  namespace: ramtops
+  app: lancre
+spec:
+  podSelector:
+    matchLabels:
+      app: lancre
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - namespaceSelector:
+            matchLabels:
+              kubernetes.io/metadata.name: ramtops
+          podSelector: {}
+      ports:
+        - protocol: TCP
+          port: 80

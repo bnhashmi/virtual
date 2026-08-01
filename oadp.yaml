@@ -1,0 +1,11 @@
+apiVersion: velero.io/v1
+kind: Backup
+metadata:
+  name: backup-lancre
+  namespace: openshift-adp
+spec:
+  includedNamespaces:
+  - ramtops
+  labelSelector:
+    matchLabels:
+      app: lancre

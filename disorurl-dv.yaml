@@ -1,0 +1,13 @@
+apiVersion: cdi.kubevirt.io/v1beta1
+kind: DataVolume
+metadata:
+  name: disorurl-rootdisk
+spec:
+  source:
+    http:
+      url: http://utility.lab.example.com:8080/openshift4/images/rhel9.qcow2 
+  storage:
+    resources:
+      requests:
+        storage: 15Gi
+  storageClassName: ocs-external-storagecluster-ceph-rbd-virtualization 
