@@ -1,0 +1,35 @@
+﻿apiVersion: platform.stackrox.io/v1alpha1
+kind: SecuredCluster
+metadata:
+  name: stackrox-secured-cluster-services
+  namespace: stackrox
+spec:
+  monitoring:
+    openshift:
+      enabled: true
+  auditLogs:
+    collection: Auto
+  network:
+    policies: Enabled
+  sensor:
+    resources:
+      limits:
+        cpu: '2'
+        memory: 4Gi
+      requests:
+        cpu: 500m
+        memory: 512Mi
+  scanner:
+    analyzer:
+      scaling:
+        autoScaling: Disabled
+        replicas: 1
+    scannerComponent: AutoSense
+  perNode:
+    collector:
+      collection: CORE_BPF
+      forceCollection: false
+      imageFlavor: Regular
+    taintToleration: TolerateTaints
+  clusterName: aegis
+  centralEndpoint: 'central-stackrox.apps.ocp4.example.com:443'
