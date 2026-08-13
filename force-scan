@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Be patient..."
+oc --kubeconfig /home/student/.auth/ocp4-kubeconfig rsh -n stackrox \
+  deploy/central roxctl image check --insecure-skip-tls-verify \
+  --password=Xn1QqO4TZnSLpLjH5rFYLbjp1 \
+  --image registry.ocp4.example.com:8443/redhattraining/do180-httpd-app:v1 &> /dev/null
+echo "Done"
